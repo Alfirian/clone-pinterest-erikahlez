@@ -5,62 +5,51 @@
   align-items: center; 
  }
 
- .barra-navegacion{
-
-   justify-content: center; 
-   align-items: center;  
-  
-
+.barra-navegacion{
+  justify-content: center; 
+  align-items: center;
 }
 
 
 /* AQUI INICIA EL ESTILO DE LOS BOTONES */
 
 .botones{
-display: flex;
-flex-direction: row;
-justify-content: center; 
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .btn{
-text-decoration: none;
-position: relative;
-margin: 10px;
-
+  text-decoration: none;
+  position: relative;
+  margin: 10px;
 }
+
 .btn-pinterest{
- 
   background-color: white;
   color: rgba(230, 17, 17, 0.733);
   border-color: white;
   border-radius: 200px;
   transition: transform 0.3s ease;
   padding: 10px 20px;
-
 }
 
 
- .barra-busqueda i{
+.barra-busqueda i{
   position: absolute; /* Alinea el icono dentro del input */
   margin-left: 20px;
   top: 30px;
- }
+}
 
 .buscador{
-
   padding:  10px 200px;
   border-color: rgb(121, 121, 121);
   border-radius: 100px;
- 
 }
 
-.barra-busqueda ::placeholder{
- 
+.barra-busqueda :placeholder{
  font-size: medium;
  color: rgb(99, 94, 94);
- 
-
 }
 
 .btn-hoy{
@@ -72,7 +61,6 @@ margin: 10px;
   padding: 10px 20px;
 }
 
-
 .btn-explorar{
   background-color: white;
   color: black;
@@ -81,6 +69,7 @@ margin: 10px;
   transition: transform 0.3s ease;
   padding: 10px 20px;
 }
+
 .btn-inicio{
   background-color: rgba(175, 175, 175, 0.24);
   color: black;
@@ -91,19 +80,17 @@ margin: 10px;
 }
 
 .btn-inicio:hover{
-
   background-color:  rgba(175, 175, 175, 0.397);
 }
 
-
- .btn-registrar{
+.btn-registrar{
   background-color: rgba(230, 17, 17, 0.733);
   color: white;
   border-color:  rgba(230, 17, 17, 0.733);
   border-radius: 200px;
   transition: transform 0.3s ease;
   padding: 10px 20px;
- }
+}
 
 .btn-registrar:hover{
   background-color: rgb(230, 17, 17);
@@ -170,5 +157,3 @@ margin: 10px;
     columns: 6 320px;
     column-gap: 0.5em;
  }
-
-
